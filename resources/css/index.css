@@ -1,0 +1,94 @@
+/* ---------- BASIC RESET & PAGE STYLING ---------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #2c3e50;
+    background-color: #f4f6f8;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+    animation: fadein 1s ease-in-out;
+    height: 100%;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+*:focus {
+    outline: 2px solid #007BFF;
+    outline-offset: 2px;
+}
+
+/* ---------- PAGE HEADER ---------- */
+h1 {
+    padding: 20px;
+    text-align: center;
+    font-size: 2rem;
+    color: #2c3e50;
+}
+
+/* ---------- FORM STYLING ---------- */
+form {
+    width: 100%;
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 30px;
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    background-color: #fff;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+}
+
+/* ---------- FLEX LAYOUT FOR INPUT + BUTTON ---------- */
+.input-button-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* ---------- INPUT STYLING ---------- */
+.input-button-row input[type="text"] {
+    flex: 1;
+    padding: 10px 12px;
+    height: 45px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+}
+
+.input-button-row input:focus {
+    border-color: #007BFF;
+}
+
+/* ---------- BUTTON STYLING ---------- */
+.input-button-row button {
+    height: 45px;
+    padding: 0 20px;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-weight: 500;
+    font-size: 1rem;
+    white-space: nowrap;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.input-button-row button:hover {
+    background-color: #0056b3;
+    transform: translateY(-1px);
+}
+
+.input-button-row button:active {
+    transform: scale(0.98);
+}
