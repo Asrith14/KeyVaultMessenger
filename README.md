@@ -77,7 +77,6 @@ If you downloaded a ZIP or cloned the repository:
 - Open your browser and go to:
   ```
   http://localhost/KeyVaultMessenger-main/chat/
-
   ```
 
 ---
