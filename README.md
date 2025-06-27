@@ -76,7 +76,8 @@ If you downloaded a ZIP or cloned the repository:
 ### 5. 🚀 Run the Project
 - Open your browser and go to:
   ```
-http://localhost/KeyVaultMessenger-main/chat/
+  http://localhost/KeyVaultMessenger-main/chat/
+
   ```
 
 ---
