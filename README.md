@@ -34,7 +34,7 @@ If you downloaded a ZIP or cloned the repository:
   ```
   C:\xampp\htdocs\
   ```
-- Rename it if needed (e.g., `secure-chat`)
+
 
 ---
 
